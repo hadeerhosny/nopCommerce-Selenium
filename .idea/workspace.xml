@@ -4,11 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90724efa-579c-4269-a0c9-6acdd3f3d126" name="Changes" comment="" />
+    <list default="true" id="90724efa-579c-4269-a0c9-6acdd3f3d126" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopCommerce/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopCommerce/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopCommerce/factory/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopCommerce/pages/BooksPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopCommerce/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopCommerce/pages/SignupPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopCommerce/testcases/AllcasesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopCommerce/testcases/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nopCommerce/testcases/SignupTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,9 +55,127 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Hadeer.Hosny/IdeaProjects/TestCrew-Assement",
     "onboarding.tips.debug.path": "C:/Users/Hadeer.Hosny/IdeaProjects/nopCommerce-Selenium/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.AllcasesTest.buyTheProduct (1)">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GUI_Web" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopCommerce.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopCommerce.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.nopCommerce.testcases.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.testSelectBooksFilterLowToHighPriceAddToCartAndGoToCartToCheckout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GUI_Web" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopCommerce.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopCommerce.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.nopCommerce.testcases.test" />
+      <option name="METHOD_NAME" value="testSelectBooksFilterLowToHighPriceAddToCartAndGoToCartToCheckout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllcasesTest.buyTheProduct (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GUI_Web" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopCommerce.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopCommerce.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.nopCommerce.testcases.AllcasesTest" />
+      <option name="METHOD_NAME" value="buyTheProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllcasesTest.buyTheProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="nopCommerce-Selenium" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopCommerce.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopCommerce.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.nopCommerce.testcases.AllcasesTest" />
+      <option name="METHOD_NAME" value="buyTheProduct" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllcasesTest.signUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="nopCommerce-Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nopCommerce.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nopCommerce.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.nopCommerce.testcases.AllcasesTest" />
+      <option name="METHOD_NAME" value="signUp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AllcasesTest.buyTheProduct (1)" />
+        <item itemvalue="JUnit.test.testSelectBooksFilterLowToHighPriceAddToCartAndGoToCartToCheckout" />
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="TestNG.AllcasesTest.buyTheProduct" />
+        <item itemvalue="TestNG.AllcasesTest.signUp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

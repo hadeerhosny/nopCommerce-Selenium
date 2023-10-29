@@ -1,0 +1,69 @@
+[INFO ] 2023-10-29 08:53:02.631 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        Powered by [1m7.3.20230804[22m                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-29 08:53:04.815 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-10-29 08:53:04.816 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-10-29 08:53:05.002 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-10-29 08:53:05.614 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-10-29 08:53:05.940 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-10-29 08:53:05.994 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Hadeer.Hosny\IdeaP..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: accept and notify}
+[INFO ] 2023-10-29 08:53:05.997 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-10-29 08:53:05.997 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[DEBUG] 2023-10-29 08:53:06.506 [main] ResolutionCache - Resolution chrome=118 in cache (valid until 09:10:46 29/10/2023 EET)
+[DEBUG] 2023-10-29 08:53:06.507 [main] ResolutionCache - Resolution chrome118=118.0.5993.70 in cache (valid until 07:15:56 30/10/2023 EET)
+[INFO ] 2023-10-29 08:53:06.508 [main] WebDriverManager - Using chromedriver 118.0.5993.70 (resolved driver for Chrome 118)
+[DEBUG] 2023-10-29 08:53:06.524 [main] WebDriverManager - Driver chromedriver 118.0.5993.70 found in cache
+[INFO ] 2023-10-29 08:53:06.526 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Hadeer.Hosny\.cache\selenium\chromedriver\win64\118.0.5993.70\chromedriver.exe
+[WARN ] 2023-10-29 08:53:10.263 [main] ReportManager - Oct 29, 2023 8:53:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-10-29 08:53:10.264 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 115
+[INFO ] 2023-10-29 08:53:10.282 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[ERROR] 2023-10-29 08:53:10.286 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2023-10-29 08:53:10.287 [main] AllureLifecycle - Could not stop step: step with uuid c1ce27a0-e02b-4617-a43e-141a2ee02f03 not found
+[INFO ] 2023-10-29 08:53:10.383 [main] Utils - [TestNG] Running:
+  C:\Users\Hadeer.Hosny\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-10-29 08:53:10.410 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-29 08:53:10.426 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-10-29 08:53:10.447 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-10-29 08:53:10.661 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                 'com.nopCommerce.testcases.AllcasesTest.setup'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-10-29 08:53:10.679 [main] ResolutionCache - Resolution chrome=118 in cache (valid until 09:10:46 29/10/2023 EET)
+[DEBUG] 2023-10-29 08:53:10.680 [main] ResolutionCache - Resolution chrome118=118.0.5993.70 in cache (valid until 07:15:56 30/10/2023 EET)
+[INFO ] 2023-10-29 08:53:10.680 [main] WebDriverManager - Using chromedriver 118.0.5993.70 (resolved driver for Chrome 118)
+[DEBUG] 2023-10-29 08:53:10.693 [main] WebDriverManager - Driver chromedriver 118.0.5993.70 found in cache
+[INFO ] 2023-10-29 08:53:10.694 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Hadeer.Hosny\.cache\selenium\chromedriver\win64\118.0.5993.70\chromedriver.exe
+[WARN ] 2023-10-29 08:53:13.462 [main] ReportManager - Oct 29, 2023 8:53:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-10-29 08:53:13.462 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 115
+[INFO ] 2023-10-29 08:54:04.789 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                       Test Method: 'com.nopCommerce.testcases.AllcasesTest.buyTheProduct'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-29 08:55:26.606 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: buyTheProduct'
+[INFO ] 2023-10-29 08:55:26.810 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of teardown configuration method                                               
+                                                'com.nopCommerce.testcases.AllcasesTest.teardown'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-29 08:55:27.969 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-29 08:55:27.971 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-10-29 08:55:27.972 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-10-29 08:55:27.972 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
